@@ -5,12 +5,13 @@
 // if class has minimum 1 abstract method then class should be declared as abstract
 // we can not create the object for the abstract class(because this class is not fully implemented)
 // we can also declare class as abstract if it does not have any abstract methods
-//child class is responsible to provide implementation to parent class methods
+// child class is responsible to provide implementation to parent class methods
 
 
 abstract class abstract_modifier {
     public abstract int get_number_wheels();  // Abstract method without implementation
 }
+
 
 class bus extends abstract_modifier  // we can not create object directly for abstract class, so we extend it
 {

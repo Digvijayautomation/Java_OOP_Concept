@@ -1,5 +1,5 @@
-//By declaring your class or variables private we can hide our data from outside
-//Security is the advantages for data hiding
+// By declaring your class or variables private we can hide our data from outside
+// Security is the advantages for data hiding
 
 public class data_hiding {
 
